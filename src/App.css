@@ -1,0 +1,44 @@
+
+body {
+  margin: 0;
+  background-color: #f8faff;
+  font-family: Arial, sans-serif;
+  color: #172554;
+}
+
+.hero {
+  background: linear-gradient(135deg, #eef4ff, #ffffff);
+}
+
+.hero h1 span {
+  color: #2563eb;
+}
+
+.search-box {
+  max-width: 350px;
+}
+
+.project-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.12) !important;
+}
+
+.project-card .btn {
+  transition: background-color 0.2s ease;
+}
+
+.registration-card {
+  max-width: 600px;
+  border-radius: 14px;
+}
+
+.registration-card .form-control,
+.registration-card .form-select {
+  padding: 10px 12px;
+}

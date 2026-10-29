@@ -1,0 +1,30 @@
+
+
+:root {
+  font-family: Arial, sans-serif;
+  color: #172554;
+  background: #f8faff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  display: block;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
